@@ -1,10 +1,18 @@
-console.log('first task')
-console.time()
-for(let i = 0; i<10000000; i++){
-    const h3 = document.querySelector('h3');
-    h3.textContent = `Hey, everyone is waiting on me.`
-}
+// console.log('first task')
+// console.time()
+// for(let i = 0; i<10000000; i++){
+//     const h3 = document.querySelector('h3');
+//     h3.textContent = `Hey, everyone is waiting on me.`
+// }
 
-console.timeEnd()
+// console.timeEnd()
 
-console.log('next task')
+// console.log('next task')
+
+
+console.log("Start");
+document.getElementById("btn").addEventListener('click', function cb(){
+    console.log("Callback");
+});
+
+console.log("End");
